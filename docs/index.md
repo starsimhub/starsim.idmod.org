@@ -6,7 +6,7 @@ pagetitle: Home
 
 Starsim is a fast, flexible framework for agent-based modeling of health and disease. It supports co-transmission of multiple diseases, non-infectious conditions, detailed mother-child relationships, multiple network types, flexible interventions, automated calibration, and varying levels of detail from agent-based to compartmental.
 
-Starsim is available for both Python and R, and is fully open-source under the MIT license.
+Starsim is available for both Python and R, and is fully open-source under the MIT license. For more information, see <a href="https://starsim.org">starsim.org</a>.
 
 ## Getting started
 
