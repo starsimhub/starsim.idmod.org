@@ -4,67 +4,35 @@ pagetitle: Home
 
 # Starsim
 
-Starsim is a fast, flexible framework for agent-based modeling of health and disease. It supports co-transmission of multiple diseases, non-infectious conditions, detailed mother-child relationships, multiple network types, flexible interventions, automated calibration, and varying levels of detail from agent-based to compartmental.
+Starsim is an open-source disease modeling framework used to answer real-world public health questions — including how to roll out HPV vaccination, scale up HIV prevention, target tuberculosis programs, and expand access to family planning. It is designed to give analysts and program teams trustworthy, locally relevant evidence to support decisions about which interventions to fund, where to deploy them, and how to measure impact.
 
-Starsim is available for both Python and R, and is fully open-source under the MIT license. For more information, see <a href="https://starsim.org">starsim.org</a>.
-
-## Getting started
-
-<div class="grid cards" markdown>
-
--   :material-book-open-variant:{ .lg .middle } __Documentation__
-
-    ---
-
-    Full Starsim documentation, including API reference.
-
-    [:octicons-arrow-right-24: Docs](https://docs.starsim.org)
-
--   :material-school:{ .lg .middle } __Tutorials__
-
-    ---
-
-    Step-by-step tutorials for getting started with Starsim.
-
-    [:octicons-arrow-right-24: Tutorials](https://docs.idmod.org/projects/starsim/en/latest/tutorials.html)
-
--   :material-github:{ .lg .middle } __Source code__
-
-    ---
-
-    The Starsim source code on GitHub.
-
-    [:octicons-arrow-right-24: Code](https://github.com/starsimhub/starsim)
-
--   :material-language-r:{ .lg .middle } __R interface__
-
-    ---
-
-    Run Starsim from R via the rstarsim package.
-
-    [:octicons-arrow-right-24: R Docs](https://r.starsim.org)
-
-</div>
+Starsim is freely available for both Python and R under the MIT license. For policy applications, case studies, and team information, see [starsim.org](https://starsim.org).
 
 ## Why Starsim?
 
-Starsim achieves C++ speeds from pure Python via array computations and just-in-time compilation, so simulations run on laptops rather than supercomputers. Its modular design lets you reuse or adapt disease models, transmission networks, and demographics — mix, match, and modify any module. Starsim is a community, not a product: we believe diversity, transparency, and collaboration are essential for real-world health outcomes.
+<div class="grid cards" markdown>
 
-## Installation
+-   :material-check-decagram:{ .lg .middle } __Used in real programs__
 
-Install from Python:
+    ---
 
-```bash
-pip install starsim
-```
+    Starsim models have informed program decisions on HPV vaccination, HIV and STI services, tuberculosis, and family planning in partnership with ministries of health, NGOs, and global funders.
 
-Or from R:
+-   :material-eye-outline:{ .lg .middle } __Open and transparent__
 
-```r
-devtools::install_github("starsimhub/rstarsim")
-library(starsim)
-init_starsim()
-```
+    ---
+
+    Starsim is fully open-source under the MIT license, with peer-reviewed publications documenting its methods and applications. Assumptions, code, and data flows are inspectable end-to-end.
+
+-   :material-earth:{ .lg .middle } __Broad applicability__
+
+    ---
+
+    A single framework covers a wide range of diseases — HIV, HPV, TB, STIs, family planning, and more — making it easier to compare interventions and combine evidence across programs.
+
+</div>
+
+For representative work, see for example *[HPVsim: An agent-based model of HPV transmission and cervical disease](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012181)* (Stuart et al., PLOS Computational Biology, 2024) and *[The role of HPV single-dose vaccination in expanding access in GAVI-supported countries](https://www.sciencedirect.com/science/article/abs/pii/S0264410X25014859)* (Stuart et al., Vaccine, 2026).
 
 ## Models
 
@@ -106,6 +74,64 @@ The Starsim ecosystem includes a growing set of disease-specific models. A more 
 
 </div>
 
+## Get started
+
+If you build, calibrate, or extend Starsim models, these are the entry points:
+
+<div class="grid cards" markdown>
+
+-   :material-book-open-variant:{ .lg .middle } __Documentation__
+
+    ---
+
+    Full Starsim documentation, including API reference.
+
+    [:octicons-arrow-right-24: Docs](https://docs.starsim.org)
+
+-   :material-school:{ .lg .middle } __Tutorials__
+
+    ---
+
+    Step-by-step tutorials for getting started with Starsim.
+
+    [:octicons-arrow-right-24: Tutorials](https://docs.idmod.org/projects/starsim/en/latest/tutorials.html)
+
+-   :material-github:{ .lg .middle } __Source code__
+
+    ---
+
+    The Starsim source code on GitHub.
+
+    [:octicons-arrow-right-24: Code](https://github.com/starsimhub/starsim)
+
+-   :material-language-r:{ .lg .middle } __R interface__
+
+    ---
+
+    Run Starsim from R via the rstarsim package.
+
+    [:octicons-arrow-right-24: R Docs](https://r.starsim.org)
+
+</div>
+
+Starsim is designed for everyday hardware — it runs on a laptop, not a supercomputer — and its modular structure means existing disease models, transmission networks, and demographics can be reused, adapted, or replaced without rewriting the core framework.
+
+## Installation
+
+Install from Python:
+
+```bash
+pip install starsim
+```
+
+Or from R:
+
+```r
+devtools::install_github("starsimhub/rstarsim")
+library(starsim)
+init_starsim()
+```
+
 ## AI-accelerated development
 
-Starsim includes [Starsim-AI](https://github.com/starsimhub/starsim_ai): MCP servers, skills, and plugins you can use with your favorite code editor to accelerate model development.
+For technical contributors, [Starsim-AI](https://github.com/starsimhub/starsim_ai) provides MCP servers, skills, and plugins that integrate Starsim with modern code editors to speed up model development.
