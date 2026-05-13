@@ -30,6 +30,12 @@ Starsim is freely available for both Python and R under the MIT license. For pol
 
     A single framework covers a wide range of diseases — HIV, HPV, TB, STIs, family planning, and more — making it easier to compare interventions and combine evidence across programs.
 
+-   :material-rocket-launch:{ .lg .middle } __Fast and flexible__
+
+    ---
+
+    Starsim runs on a laptop, not a supercomputer, and its modular structure lets diseases, networks, demographics, and interventions be reused, adapted, or replaced without rewriting the core framework.
+
 </div>
 
 For representative work, see for example *[HPVsim: An agent-based model of HPV transmission and cervical disease](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012181)* (Stuart et al., PLOS Computational Biology, 2024) and *[The role of HPV single-dose vaccination in expanding access in GAVI-supported countries](https://www.sciencedirect.com/science/article/abs/pii/S0264410X25014859)* (Stuart et al., Vaccine, 2026).
@@ -113,8 +119,6 @@ If you build, calibrate, or extend Starsim models, these are the entry points:
     [:octicons-arrow-right-24: R Docs](https://r.starsim.org)
 
 </div>
-
-Starsim is designed for everyday hardware — it runs on a laptop, not a supercomputer — and its modular structure means existing disease models, transmission networks, and demographics can be reused, adapted, or replaced without rewriting the core framework.
 
 ## Installation
 
