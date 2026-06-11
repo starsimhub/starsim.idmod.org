@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#
+# Build the docs and publish them to the gh-pages branch.
+#
+# This is normally done automatically by CI on every push to main
+# (see .github/workflows/deploy-docs.yml); use this script to deploy manually.
+
+set -euo pipefail
+
+cd "$(dirname "$0")"
+
+echo "Publishing to gh-pages..."
+mkdocs gh-deploy --force
+echo "Done."
