@@ -52,7 +52,7 @@ The Starsim ecosystem includes a growing set of disease-specific models. A more 
 
 <div class="grid cards" markdown>
 
--   :material-virus:{ .lg .middle } __STIsim__
+-   :material-virus:{ .lg .middle } __STIsim__{ #stisim }
 
     ---
 
@@ -60,7 +60,7 @@ The Starsim ecosystem includes a growing set of disease-specific models. A more 
 
     [:octicons-arrow-right-24: STIsim](https://stisim.org)
 
--   :material-dna:{ .lg .middle } __HPVsim__
+-   :material-dna:{ .lg .middle } __HPVsim__{ #hpvsim }
 
     ---
 
@@ -68,7 +68,7 @@ The Starsim ecosystem includes a growing set of disease-specific models. A more 
 
     [:octicons-arrow-right-24: HPVsim](https://hpvsim.org)
 
--   :material-human-pregnant:{ .lg .middle } __FPsim__
+-   :material-human-pregnant:{ .lg .middle } __FPsim__{ #fpsim }
 
     ---
 
@@ -76,7 +76,7 @@ The Starsim ecosystem includes a growing set of disease-specific models. A more 
 
     [:octicons-arrow-right-24: FPsim](https://fpsim.org)
 
--   :material-lungs:{ .lg .middle } __TBsim__
+-   :material-lungs:{ .lg .middle } __TBsim__{ #tbsim }
 
     ---
 
@@ -84,7 +84,7 @@ The Starsim ecosystem includes a growing set of disease-specific models. A more 
 
     [:octicons-arrow-right-24: TBsim](https://starsim.org/tbsim)
 
--   :material-bacteria:{ .lg .middle } __Typhoidsim__
+-   :material-bacteria:{ .lg .middle } __Typhoidsim__{ #typhoidsim }
 
     ---
 
@@ -92,7 +92,7 @@ The Starsim ecosystem includes a growing set of disease-specific models. A more 
 
     [:octicons-arrow-right-24: Typhoidsim](https://starsim.org/typhoidsim)
 
--   :material-virus-outline:{ .lg .middle } __Covasim__
+-   :material-virus-outline:{ .lg .middle } __Covasim__{ #covasim }
 
     ---
 
