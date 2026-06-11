@@ -38,7 +38,13 @@ Starsim is freely available for both Python and R under the MIT license. For pol
 
 </div>
 
-For representative work, see for example *[HPVsim: An agent-based model of HPV transmission and cervical disease](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012181)* (Stuart et al., PLOS Computational Biology, 2024) and *[The role of HPV single-dose vaccination in expanding access in GAVI-supported countries](https://www.sciencedirect.com/science/article/abs/pii/S0264410X25014859)* (Stuart et al., Vaccine, 2026).
+For representative work, see for example:
+
+- *[Covasim: An agent-based model of COVID-19 dynamics and interventions](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009149)* (Kerr et al., PLOS Computational Biology, 2021)
+- *[Controlling COVID-19 via test-trace-quarantine](https://www.nature.com/articles/s41467-021-23276-9)* (Kerr et al., Nature Communications, 2021)
+- *[The changing health impact of vaccines in the COVID-19 pandemic: A modeling study](https://www.sciencedirect.com/science/article/pii/S2211124723003194)* (Cohen et al., Cell Reports, 2023)
+- *[HPVsim: An agent-based model of HPV transmission and cervical disease](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012181)* (Stuart et al., PLOS Computational Biology, 2024)
+- *[The role of HPV single-dose vaccination in expanding access in GAVI-supported countries](https://www.sciencedirect.com/science/article/abs/pii/S0264410X25014859)* (Stuart et al., Vaccine, 2026).
 
 ## Models
 
@@ -77,6 +83,22 @@ The Starsim ecosystem includes a growing set of disease-specific models. A more 
     Tuberculosis transmission and progression.
 
     [:octicons-arrow-right-24: TBsim](https://starsim.org/tbsim)
+
+-   :material-bacteria:{ .lg .middle } __Typhoidsim__
+
+    ---
+
+    Typhoid transmission and control.
+
+    [:octicons-arrow-right-24: Typhoidsim](https://starsim.org/typhoidsim)
+
+-   :material-virus-outline:{ .lg .middle } __Covasim__
+
+    ---
+
+    COVID-19 transmission and interventions.
+
+    [:octicons-arrow-right-24: Covasim](https://covasim.org)
 
 </div>
 
